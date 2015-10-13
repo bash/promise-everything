@@ -9,6 +9,8 @@ npm install --save promise-everything
 
 ## Usage
 
+The function **fn** will be called with the arguments **args** + a callback that should be invoked with error + value.
+
 ```javascript  
 call(fn, [...args]) // => Promise(...)
 ```
