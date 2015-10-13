@@ -1,4 +1,5 @@
-# promise-everything [![Build Status](https://travis-ci.org/bash/promise-everything.svg?branch=master)](https://travis-ci.org/bash/promise-everything)
+# promise-everything [![Build Status](https://travis-ci.org/bash/promise-everything.svg?branch=master)](https://travis-ci.org/bash/promise-everything) [![npm version](https://badge.fury.io/js/promise-everything.svg)](https://badge.fury.io/js/promise-everything)gs
+
 Use node.js - style callback functions as Promises
 
 ## Installation
