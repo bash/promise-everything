@@ -7,7 +7,13 @@ Use node.js - style callback functions as Promises
 npm install --save promise-everything
 ```
 
-## Example Usage
+## Usage
+
+```javascript  
+call(fn, [...args]) // => Promise(...)
+```
+
+## Example
 
 ```javascript
 var call = require('promise-everything'),
