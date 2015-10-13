@@ -4,9 +4,6 @@
   "noarg": true,
   "nonew": true,
   "undef": true,
-  "globals": [
-    "window", "module", "define"
-  ],
   "browser": true,
   "browserify": true,
   "mocha": true

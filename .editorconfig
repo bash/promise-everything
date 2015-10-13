@@ -1,8 +1,6 @@
 [*]
 indent_style = space
+charset = utf-8
 
-[*.js]
-indent_width = 4
-
-[*.json]
-indent_width = 2
+[*.{js,es6,json,yml}]
+indent_size = 2
