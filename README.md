@@ -21,6 +21,12 @@ call(fn, [...args]) // => Promise(...)
 var call = require('promise-everything'),
     fs   = require('fs');
     
+// node.js - style
+fs.readFile('.editorconfig', function(err, data){
+    // ...
+});
+
+// with promises
 call(fs.readFile, '.editorconfig').then(function(data){
     console.log(data);
 });
