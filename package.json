@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "mocha",
-	"coverage": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+    "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/bash/promise-everything",
   "devDependencies": {
     "coveralls": "^2.11.4",
+    "istanbul": "^0.3.22",
     "mocha": "^2.3.3",
     "mocha-lcov-reporter": "^1.0.0"
   }
