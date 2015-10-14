@@ -1,4 +1,4 @@
-# promise-everything [![Build Status](https://travis-ci.org/bash/promise-everything.svg?branch=master)](https://travis-ci.org/bash/promise-everything) [![npm version](https://badge.fury.io/js/promise-everything.svg)](https://badge.fury.io/js/promise-everything)
+# promise-everything [![Build Status](https://travis-ci.org/bash/promise-everything.svg?branch=master)](https://travis-ci.org/bash/promise-everything) [![npm version](https://badge.fury.io/js/promise-everything.svg)](https://badge.fury.io/js/promise-everything) [![Coverage Status](https://coveralls.io/repos/bash/promise-everything/badge.svg?branch=master&service=github)](https://coveralls.io/github/bash/promise-everything?branch=master)
 
 Use node.js - style callback functions as Promises
 
