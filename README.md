@@ -23,12 +23,12 @@ var call = require('promise-everything'),
     fs   = require('fs');
     
 // node.js - style
-fs.readFile('.editorconfig', function(err, data){
+fs.readFile('.editorconfig', 'utf8', function(err, data){
     // ...
 });
 
 // with promises
-call(fs.readFile, '.editorconfig').then(function(data){
+call(fs.readFile, '.editorconfig', 'utf8').then(function(data){
     console.log(data);
 });
 ```
