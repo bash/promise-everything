@@ -5,8 +5,8 @@
 /**
  * Calls the given function with given arguments and a callback argument
  *
- * @param {Function} fn
- * @param {...*}
+ * @param {Function} fn Function to be invoked. Please note that it must take a callback argument as last argument.
+ * @param {...*} Variable number of arguments will be passed to the given callback
  *
  * @returns {Promise}
  */
