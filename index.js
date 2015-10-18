@@ -7,6 +7,9 @@
  *
  * @param {Function} fn Function to be invoked. Please note that it must take a callback argument as last argument.
  * @param {...*} Variable number of arguments will be passed to the given callback
+ * @example
+ * // returns a Promise
+ * require('promise-everything')(fs.readFile, 'index.js', 'utf8);
  *
  * @returns {Promise}
  */
