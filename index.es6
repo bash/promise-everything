@@ -3,6 +3,7 @@
  */
 
 /**
+ * Calls the given function with given arguments and a callback argument
  *
  * @param {Function} fn
  * @param {*} args
